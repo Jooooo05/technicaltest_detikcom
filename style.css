@@ -1,0 +1,251 @@
+*, p, span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #00D1FF;
+    --secondary-color: #6c757d;
+    --text-color-white: #f8f9fa;
+    --button-color: #FFC73C;
+    --button-color-hover: #ffb700;
+}
+.w-full{
+    width: 100%;
+}
+.text-white{
+    color: var(--text-color-white);
+}
+.text-orange{
+    color: var(--button-color);
+}
+.text-md{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.5); /* Warna putih dengan 50% transparansi */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Opsional: memberikan bayangan */
+    top: 40px;
+    left: 80px;
+    right: 80px;
+    z-index: 100;
+}
+
+.gap-5 span a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.gap-5 span a:hover {
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+.gap-5 span .btn-registrasi {
+    background-color: var(--button-color);
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.gap-5 span .btn-registrasi:hover {
+    background-color: var(--button-color-hover);
+}
+
+/* main */
+.bg_utama {
+    background-image: url('./img/bg_utama.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%; 
+}
+
+.gradient_bg {
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background: linear-gradient(
+        to top,
+        var(--primary-color) 5%,
+        transparent 95%
+    );
+}
+
+.section_thailandtext {
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    padding-left: 100px;
+}
+
+.btn-tentang {
+    background-color: var(--button-color);
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.5s ease;
+    text-decoration: none;
+}
+.btn-tentang:hover {
+    background-color: var(--button-color-hover);
+}
+/* main */
+
+/* section_tentang_program */
+.section_tentang_program {
+    background-image: url('./img/bg_ttg_program.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 800px; 
+    width: 100%; 
+}
+
+.gradient_ttg_program {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 208, 255, 0.944);
+}
+
+.width50 {
+    width: 50%;
+}
+
+.mt-50{
+    margin-top: 150px;
+}
+/* section_tentang_program */
+
+/* section section_detikupdate */
+.section_detikupdate {
+    background-image: url('./img/detik_update.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 800px; 
+    width: 100%; 
+}
+
+.gradient_detikupdate {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(219, 219, 219, 0.925);
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.update {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffb700;
+}
+
+.main-update {
+    width: 100%;
+}
+
+.overflow-update {
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #00D1FF;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.update-text{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 0 0 10px;
+}
+
+.text-kecil{
+    padding-left: 10px;
+}
+
+.thumbnail {
+    width: 636px;
+    height: 608px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-thumbnail {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.text-thumbnail {
+    font-size: 18px;
+    font-weight: 500;
+}
+.desc {
+    margin-bottom: 10px;
+}
+.btn-thumbnail {
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #00D1FF;
+    border: none;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+/* section section_detikupdate */
+
+/* footer */
+footer {
+    background-color: #00D1FF;
+    top: 0px;
+    min-height: 100px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow-x: hidden;
+}
+
+
+.footer img{
+    width: 285.99px;
+    height: auto;
+    top: 60px;
+    left: 60px;
+    position: relative;
+    
+}
+
+.foot-desc {
+    width: 1008px;
+    left: 60px;
+    top: 60px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.foot-sosmed {
+    display:grid;
+    justify-content: end;
+    top: -20px;
+}
+
+.foot-sosmed img{
+    width: 185px;
+    top: -10px;
+    left: -28px;
+}
+
+.copyright{
+    position: relative;
+    left: 60px;
+}
+/* footer */
